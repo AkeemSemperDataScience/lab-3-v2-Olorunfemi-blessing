@@ -7,7 +7,7 @@ def lab3Question1(number, cutoff):
     is_less_than = False
     if number < cutoff:
         is_less_than = True
-        print(f"{number} is less than {cutoff}").
+        print(f"{number} is less than {cutoff}")
     else:
         print(f"{number} is not less than {cutoff}")
 

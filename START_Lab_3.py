@@ -24,9 +24,9 @@ def lab3Question2(decimal_number):
         # Check if decimal_number can be a float
         if isinstance(decimal_number, float):  # This will check if the input is a float
             if decimal_number > 0:
-                return 'Positive'
+                return 'positive'
             else:
-                return 'Negative'
+                return 'negative'
         else:
             return 'Invalid'  # Not a float
     except:
